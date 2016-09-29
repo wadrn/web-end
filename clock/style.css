@@ -1,0 +1,19 @@
+html,body,div,span{
+    margin: 0;
+    padding: 0;
+}
+div{
+    width: 300px;
+    margin: 10px auto;
+    background: #000;
+    padding: 25px 0;
+    color: white;
+    text-align: center;
+}
+span{
+    background: white;
+    margin: 0 10px;
+    padding: 0 10px;
+    border: 2px solid darkgray;
+    color: black;;
+}
