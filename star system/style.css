@@ -1,0 +1,53 @@
+body,div,ul,li,span,a{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: #666;
+    font: 12px/1.5 Arial;
+}
+ul{
+    list-style-type: none;
+}
+#star-system{
+    width: 600px;
+    margin: 10px auto;
+    position: relative;
+}
+#star-system ul,#star-system span{
+    display: inline;
+    float: left;
+    height: 19px;
+    line-height: 19px;
+}
+#star-system ul{
+    margin: 0 10px;
+}
+#star-system li{
+    background: url('http://www.fgm.cc/learn/lesson4/img/star.png') no-repeat;
+    cursor: pointer;
+    float: left;
+    text-indent: -9999px;
+    width: 24px;
+}
+#star-system strong{
+    color: #f60;
+    padding-left: 10px;
+}
+#star-system li.on{
+    background-position: 0 -28px;
+}
+#star-system p{
+    position: absolute;
+    top: 20px;
+    width: 159px;
+    height: 60px;
+    display: none;
+    background: url("http://www.fgm.cc/learn/lesson4/img/icon.gif") no-repeat;
+    padding: 7px ,10px ,0;
+}
+#star-system p em{
+    color: #f60;
+    display: block;
+    font-style: normal;
+}
