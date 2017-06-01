@@ -1,0 +1,57 @@
+.appleBasket {
+    text-align: center;
+    width: 600px;
+    margin:20px auto;
+    border-radius: 4px;
+    border: 2px solid #eee;
+}
+
+.title{
+    padding:10px;
+    font-size:24px;
+    font-weight:bold;
+    color: #069;
+    border-bottom: 2px dashed #eee;
+}
+.status{
+    border-bottom:2px dashed #eee;
+}
+.status .section{
+    display: inline-block;
+    padding:10px 0;
+    width:50%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.section:first-of-type{
+    border-right:1px solid #eee;
+}
+.status .section .head{
+    color: #069;
+    padding:6px 0;
+    font-size:16px;
+}
+.status .section .content{
+    font-size:20px;
+    font-weight:200;
+}
+.appleList{
+    padding:10px 0;
+
+}
+.empty-tip{
+    text-align: center;
+    font-size:16px;
+    color: #ccc;
+    padding:20px 0;
+}
+button{
+    color: #fff;
+    background-color: #096;
+    border: none;
+    font-size: 14px;
+    padding: 6px 40px;
+    border-radius: 6px;
+    margin: 20px auto;
+}
